@@ -1,0 +1,125 @@
+/*
+ Theme Name:   Foundations Child
+ Theme URI:    http://127.0.0.1:8008/wordpress/  
+ Description:  FoundationPress Child Tema
+ Author:       Büşra Şanlıbayrak
+ Author URI:   http://
+ Template:     FoundationPress 
+ Version:      1.0.0
+ Text Domain:
+*/ 
+.container{
+    min-height:100%;
+    margin-top:50px;
+    overflow:auto;
+}
+.menu{
+    background-color:#393838;
+    text-align:center;
+    color:white;
+    width:96%;
+    height:10%;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:0px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    overflow:auto;
+}
+.menu a{
+    color:white;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:1%;
+    font-size:12px;
+    text-decoration:none;
+    font-family:'Tahoma', Geneva, sans-serif;
+}
+
+.jcarousel-wrapper{
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-right:2%;
+    padding-left:2%;
+	width:auto;
+	height:50%;
+    position: relative;
+    background-color:white;		
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+	padding-bottom:2%;
+}
+.jcarousel ul {
+	width:20000em;
+	height:auto;
+    position: relative;
+    list-style: none;
+	margin:0;
+	padding:0;
+}
+.item{
+    float:left;
+}
+.content{
+    margin-left:25%;
+    margin-right:25%;
+    overflow:auto;
+}
+.content a{
+    text-decoration:none;
+}
+#image1,#image2,#image3{
+    float:left;
+    position:relative;
+    padding:1.5%;
+}
+.content p{
+    text-align:center;
+    color: gray;
+    margin-top:2%;
+}
+iframe{
+    margin-bottom:0px;
+    width:96%;
+    margin-left:2%;
+    margin-right:2%;
+}
+#title{
+    margin-top:0px;
+    width:20%;
+    height:50px;
+    border-radius:0px 0px 15px 15px;
+    background-color:#A6754F;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+#title p{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+#form{
+    width:55%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30%;
+    overflow:auto;
+}
+.right-column, .left-column{
+    float:left;
+    position:relative;
+    padding:3%;
+
+}
+.wpcf7-form-control.wpcf7-submit{
+    color:white;
+    background-color:#A6754F;
+    border-color:#A6754F;
+}
